@@ -1,0 +1,139 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px;
+    box-shadow: 0px 30px 10px 20px rgba(1, 5, 24, 0.3);
+    width: 250px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.background {
+    background-color: hsl(178, 100%, 50%, 0);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.image svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .5s;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.image:hover .background {
+    background-color: hsl(178, 100%, 50%, .5);
+}
+
+.image:hover svg {
+    opacity: 1;
+}
+
+.imgae:hover .background {
+    opacity: 1;
+}
+
+.title {
+    color: white;
+    font-size: .8rem;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.description {
+    color: hsl(215, 21%, 60%);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.time {
+    color: hsl(215, 21%, 60%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+hr {
+    width: 250px;
+    border: 0;
+    height: .5px;
+    background: hsl(215, 21%, 60%, .30);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.creator img {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.creator p {
+    color: hsl(215, 21%, 60%);
+    font-size: 15px;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
