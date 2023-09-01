@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [HTML](https://your-solution-url.com)
-- Solution URL: [CSS](https://your-solution-url.com)
-- Live Site URL: [LIVE SITE](https://your-live-site-url.com)
+- Solution URL: [HTML](https://github.com/ZahidurRahman8759/NFT-Preview-Card/blob/fa409d442b4da3f968d744daef6bd87381978f5c/index.html)
+- Solution URL: [CSS](https://github.com/ZahidurRahman8759/NFT-Preview-Card/blob/fa409d442b4da3f968d744daef6bd87381978f5c/style.css)
+- Live Site URL: [LIVE SITE](https://zahidurrahman8759.github.io/NFT-Preview-Card/)
 
 ## My process
 
